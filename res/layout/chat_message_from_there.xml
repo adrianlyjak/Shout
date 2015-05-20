@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ChatMessageContainer" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/chat_message_datetime"
+            style="@style/Text.ChatMessageDatetime" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/ChatMessageInfoRow" >
+
+                <RelativeLayout style="@style/SpeechTriangleContainer" >
+
+                    <ImageView style="@style/SpeechTriangle.Left" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ChatMessageDescriptionContainer.Left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/chat_message_distance_away"
+                    style="@style/Text.ChatMessageInfo.Distance"
+                    android:text="1200 mi" />
+
+                <LinearLayout style="@style/ChatMessageInfoRow" >
+
+                    <ImageView
+                        style="@style/IconShoutRadiusSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/chat_message_shout_radius"
+                        style="@style/Text.ChatMessageInfo.ShoutRadius"
+                        android:text="2000 mi" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/chat_message_description"
+                style="@style/Text.ChatMessageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message Description" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

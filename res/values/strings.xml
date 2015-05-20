@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shout</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="message_hint">Type message</string>
+    <string name="send_image_description">Send</string>
+    <string name="radius_image_description">Change Distance</string>
+    <string name="title_activity_radius_preference">RadiusPreferenceActivity</string>
+    <string name="map_settings_title">View Map</string>
+    <string name="ic_shout_small">Shout Radius Icon</string>
+    <string name="shout_service_label">Shout Service</string>
+    <string name="shout_service_description">Retrieves and sends messages for Shout</string>
+    <string name="users">Users</string>
+    
+    
+</resources>

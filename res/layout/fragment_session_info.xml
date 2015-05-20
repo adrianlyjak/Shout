@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/session_info_bar"
+    style="@style/SessionInfoBar" >
+
+    <ImageView
+        style="@style/Image.SessionInfo"
+        android:id="@+id/session_info_connection_status"
+        android:src="@drawable/ic_disconnected"
+        />
+
+    <ImageView
+        style="@style/Image.SessionInfo"
+        android:src="@drawable/ic_shout_notification" 
+        />
+
+    <TextView
+        android:id="@+id/session_info_shout_radius"
+        style="@style/Text.SessionInfo.ShoutRadius"/>
+    <ImageView
+        style="@style/Image.SessionInfo"
+        android:src="@drawable/ic_group_notification" 
+        />
+    <TextView
+        android:id="@+id/session_info_shoutusers"
+        style="@style/Text.SessionInfo" />
+
+</LinearLayout>
